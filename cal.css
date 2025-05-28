@@ -13,7 +13,7 @@ body{
 }
 
 .calculator{
-    width: 30%;
+    max-width:250px;
     height: auto;
     border-radius: 10px;
     padding: 15px;
@@ -96,9 +96,9 @@ button:active{
     background:rgb(95, 174, 230);
     transition: .1s ease-out;
 }
-@media (max-width:600px){
+@media (max-width:400px){
     .calculator{
-    width:30%;
+    max-width:200px;
     height: auto;
     border-radius: 10px;
     padding: 10px;
