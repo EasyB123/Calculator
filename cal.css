@@ -13,7 +13,7 @@ body{
 }
 
 .calculator{
-    width: 40%;
+    width: 30%;
     height: auto;
     border-radius: 10px;
     padding: 15px;
@@ -96,9 +96,9 @@ button:active{
     background:rgb(95, 174, 230);
     transition: .1s ease-out;
 }
-@media (max-width:350px){
+@media (max-width:600px){
     .calculator{
-    width:40%;
+    width:30%;
     height: auto;
     border-radius: 10px;
     padding: 10px;
@@ -111,6 +111,8 @@ button:active{
     background: rgb(28, 27, 27);
     box-shadow: 2px 2px 14px,-2px -2px 14px;
     overflow:auto;
+    margin:10px;
+}
 input{
     padding: 12px;
     outline: none;
@@ -148,5 +150,40 @@ button{
     height:45px;
     width:45px;
 }
+button:hover{
+    background: rgb(55, 55, 55);
+    transition: .1s ease-out;
 }
+button:active{
+        background: rgb(25, 23, 23);
+}
+
+.btw{
+    background-color: orangered;
+    text-align: center;
+}
+.equal{
+    background-color: rgb(42, 42, 252);
+    text-align: center;
+}
+.equal:hover{
+        background-color: rgb(64, 64, 250);
+        transition: .1s ease-out;
+
+}
+.btw:hover{
+        background-color: rgb(247, 95, 40);
+        transition: .1s ease-out;
+
+}
+.clear{
+    background: rgb(42, 155, 183);
+    text-align: center;
+}
+.clear:hover{
+    background:rgb(95, 174, 230);
+    transition: .1s ease-out;
+}
+}
+
     
