@@ -98,7 +98,7 @@ button:active{
 }
 @media (max-width:350px){
     .calculator{
-    width:30%;
+    width:40%;
     height: auto;
     border-radius: 10px;
     padding: 15px;
@@ -111,11 +111,11 @@ button:active{
     box-shadow: 2px 2px 14px,-2px -2px 14px;
     overflow:auto;
 input{
-    padding: 20px;
+    padding: 12px;
     outline: none;
     width:100%;
     border-radius: 10px;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 600;
     text-align: left;
     background: transparent;
