@@ -101,10 +101,11 @@ button:active{
     width:40%;
     height: auto;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     display: block;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
+    justify-content:center;
     border: none;
     outline:none;
     background: rgb(28, 27, 27);
@@ -126,10 +127,10 @@ input{
 #keys{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 10px;
-    padding: 10px;
+    gap: 5px;
+    padding: 6px;
     margin-top: 20px;
-    width: 100%;
+    width: 70%;
 
 }
 
