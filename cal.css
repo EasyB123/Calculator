@@ -110,5 +110,42 @@ button:active{
     background: rgb(28, 27, 27);
     box-shadow: 2px 2px 14px,-2px -2px 14px;
     overflow:auto;
+input{
+    padding: 20px;
+    outline: none;
+    width:100%;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    background: transparent;
+    color:white;
+
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+button{
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    outline:none;
+    background: rgb(25, 23, 23);
+    color:white;
+    cursor: pointer;
+    text-align: center;
+    height:45px;
+    width:45px;
+}
 }
     
